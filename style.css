@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0;
+}
+nav{
+    border-bottom: 2px solid royalblue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: black;
+   
+}
+h1{
+    margin: 20px;
+   float: left;
+    color: white;
+}
+nav ul{
+    display: flex;
+     justify-content: right;
+}
+nav ul li{
+    margin:20px;
+   list-style: none;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li:hover{
+    color: red;
+}
+section{
+    margin: auto;
+  
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    margin-top: 20vh;
+    border: 2px solid royalblue;
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid royalblue;
+    padding:10px 40px;
+}
+tr{
+    border: 2px solid royalblue;
+  
+}
